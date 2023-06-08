@@ -1,0 +1,11 @@
+Variable,Value,Format,Comment
+TOUCHPOINT,DISPLAY/IVIDEO,Text,-
+MONTH,Period,Date,dd.mm.yyyy
+SITE,Site name,Text,-
+IMPRESSIONS,Impressions,Number,-
+AGE_MIN,Target audience minimum age,Number,-
+AGE_DIFF,Target audience age difference,Number,(Target audience maximum age) - (Target audience minimum age)
+SEX,Sex,Text,"W - woman, M - man, P - all"
+INCOME,Income group,Binary,"0 - without income group, 1 - mid+"
+UNWEIGHTED_REACH,Sample size,Number,Sample size in TNS panel
+COMPOSITION,Composition,Number,-
