@@ -1,1 +1,3 @@
+display <- read.csv('displaytest.csv')
+head(display)
 
