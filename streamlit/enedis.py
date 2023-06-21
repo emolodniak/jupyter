@@ -64,6 +64,7 @@ with tab1:
 
 with tab2:
   st.write(data)
+  st.write('DataFrame :', data.shape)
   st.divider()
 
 with tab3:
