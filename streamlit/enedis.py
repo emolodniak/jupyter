@@ -19,11 +19,9 @@ with st.sidebar:
   )
   category = st.sidebar.selectbox("CATEGORIE",
       (dic['Categorie'].unique())
-      #('Residentiel', 'Professionnel')
   )
   profile = st.sidebar.selectbox("SOUS_PROFIL",
       dic['Sous-profil'][dic['Categorie']==category]
-      #('RES5_HPSH','RES5_HCSH','RES5_HPSB','RES5_HCSB','PRO1_BASE','PRO1WE_SEM','PRO1WE_WE','PRO2_HP','PRO2_HC')
   )
   year = st.radio("HORODATE",
         ('2020', '2021', '2022', '2023'), horizontal=True
