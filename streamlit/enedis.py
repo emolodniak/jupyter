@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import requests
-import altair as alt
 
 #setup
 st.set_page_config(
@@ -12,7 +11,7 @@ st.set_page_config(
 )
 
 #Sidebar
-dic = pd.read_csv('https://github.com/emolodniak/jupyter/blob/main/streamlit/DictionnaireProfils_4JUIL20.csv', encoding='cp1252', sep=';')
+dic = pd.read_csv('https://raw.githubusercontent.com/emolodniak/jupyter/main/streamlit/DictionnaireProfils_4JUIL20.csv', encoding='cp1252', sep=';')
 
 st.sidebar.title("Filtres")
 with st.sidebar:
