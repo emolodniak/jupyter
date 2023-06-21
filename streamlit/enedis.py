@@ -10,11 +10,9 @@ st.set_page_config(
     page_icon="https://d3v4jsc54141g1.cloudfront.net/uploads/mentor/avatar/1575105/normal_Enedis_Icone_couleur_RVB_300_dpi-1552312893.png",
     layout="wide"
 )
-#backgroundColor="#FFFFFF"
 
 #Sidebar
-#front logo https://data.enedis.fr/assets/logo?tstamp=16396808858804536
-dic = pd.read_csv('C:\\Users\\Invite\\Documents\\Python\\streamlit\\DictionnaireProfils_4JUIL20.csv', encoding='cp1252', sep=';')
+dic = pd.read_csv('https://github.com/emolodniak/jupyter/blob/main/streamlit/DictionnaireProfils_4JUIL20.csv', encoding='cp1252', sep=';')
 
 st.sidebar.title("Filtres")
 with st.sidebar:
@@ -37,12 +35,9 @@ with st.sidebar:
 
 def url():
   url = f'https://data.enedis.fr/api/records/1.0/search/?dataset=coefficients-des-profils&q=&rows=9999&facet=horodate&facet=sous_profil&facet=categorie&refine.categorie={category}&refine.sous_profil={profile}&refine.horodate={year}'
-  #url = 'https://data.enedis.fr/api/records/1.0/search/?dataset=trajectoire-du-nombre-de-points-de-charge-accessibles-au-public&rows=1000&sort=annee'
   return url
 
 url = url()
-
-
 
 def get_data():
   df = pd.json_normalize(requests.get(url).json()['records'])
@@ -64,19 +59,19 @@ css = '''
     .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {font-size:18px; color:DodgerBlue;}
 </style>
 '''
-##  padding-right:0rem; padding-bottom:1rem; background:lightgrey; 
 st.markdown(css, unsafe_allow_html=True)
 
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(['🛈 Informations', ':bookmark_tabs: Tableau', ':bar_chart: Analyse', 'ℹ En savoir plus', ':inbox_tray: Export', ':gear: API'])
+
 
 with tab1:
   r = requests.get(f'https://data.enedis.fr/explore/dataset/{dataset}/information/')
   st.markdown(r.text.split('content="')[4].split('"')[0])
 
-#tab2.subheader("A tab with the data")
-#tab2.write(data.set_index('annee').T)
+
 tab2.write(data)
 st.divider()
+
 
 with tab3:
   st.subheader(''.join(dic['Libellé'][dic['Sous-profil']==profile]))
