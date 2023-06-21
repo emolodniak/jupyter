@@ -84,7 +84,7 @@ with tab3:
   st.line_chart(data=DF, x='horodate', y=variables)
 
 with tab4:
-  st.markdown("[Page du site d'origine ENEDIS OPEN DATA :arrow_upper_right:]('https://data.enedis.fr/explore/dataset/coefficients-des-profils/information/')")
+  st.markdown("Page du site d'origine ENEDIS OPEN DATA [ :link: :arrow_upper_right:]('https://data.enedis.fr/explore/dataset/coefficients-des-profils/information/')")
 
 with tab5:
   st.write('Jeu de données entier')
