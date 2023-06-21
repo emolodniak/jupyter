@@ -19,11 +19,11 @@ with st.sidebar:
       (['coefficients-des-profils'])
   )
   category = st.sidebar.selectbox("CATEGORIE",
-      (dic['Catégorie'].unique())
+      (dic['Categorie'].unique())
       #('Residentiel', 'Professionnel')
   )
   profile = st.sidebar.selectbox("SOUS_PROFIL",
-      dic['Sous-profil'][dic['Catégorie']==category]
+      dic['Sous-profil'][dic['Categorie']==category]
       #('RES5_HPSH','RES5_HCSH','RES5_HPSB','RES5_HCSB','PRO1_BASE','PRO1WE_SEM','PRO1WE_WE','PRO2_HP','PRO2_HC')
   )
   year = st.radio("HORODATE",
@@ -73,7 +73,7 @@ st.divider()
 
 
 with tab3:
-  st.subheader(''.join(dic['Libellé'][dic['Sous-profil']==profile]))
+  st.subheader(''.join(dic['Libelle'][dic['Sous-profil']==profile]))
   period = st.radio("PERIOD",
         ('Mois', 'Jour', 'Heure'), horizontal=True
     )
