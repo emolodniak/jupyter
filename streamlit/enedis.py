@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 #Sidebar
-dic = pd.read_csv('https://raw.githubusercontent.com/emolodniak/jupyter/main/streamlit/DictionnaireProfils_4JUIL20.csv', encoding='cp1252', sep=';')
+dic = pd.read_csv('https://raw.githubusercontent.com/emolodniak/jupyter/main/streamlit/DictionnaireProfils_4JUIL20.csv', encoding='utf-8', sep=';')
 
 st.sidebar.title("Filtres")
 with st.sidebar:
@@ -92,6 +92,7 @@ with tab3:
 
 
 with tab5:
+  st.write('Jeu de données entier')
   st.download_button(
     label="Download data as CSV",
     data=data.to_csv(sep=';'),
