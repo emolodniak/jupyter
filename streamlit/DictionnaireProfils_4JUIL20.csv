@@ -1,144 +1,144 @@
-Profil;Nombre de cadrans;CatÈgorie;Sous-profil;LibellÈ;Version statique;Version dynamique
-RES1;1;Residentiel;RES1_BASE;RÈsidentiel Base ? 6 kVA;OUI;OUI
-RES11;1;Residentiel;RES11_BASE;RÈsidentiel Base > 6 kVA;OUI;OUI
-RES1WE;2;Residentiel;RES1WE_SEM;RÈsidentiel Base + WE <= 6 kVA - Cadran Semaine;OUI;NON
-RES1WE;2;Residentiel;RES1WE_WE;RÈsidentiel Base + WE <= 6 kVA - Cadran Week-End;;
-RES11WE;2;Residentiel;RES11WE_SEM;RÈsidentiel Base + WE > 6 kVA - Cadran Semaine;OUI;NON
-RES11WE;2;Residentiel;RES11WE_WE;RÈsidentiel Base + WE > 6 kVA - Cadran Week-End;;
-RES2;2;Residentiel;RES2_HP;RÈsidentiel HP / HC - Cadran Heures Pleines;OUI;OUI
-RES2;2;Residentiel;RES2_HC;RÈsidentiel HP / HC - Cadran Heures Creuses;;
-RES2WE;3;Residentiel;RES2WE_HP;RÈsidentiel HP / HC + WE - Cadran Heures Pleines;OUI;NON
-RES2WE;3;Residentiel;RES2WE_HC;RÈsidentiel HP / HC + WE - Cadran Heures Creuses;;
-RES2WE;3;Residentiel;RES2WE_WE;RÈsidentiel HP / HC + WE - Cadran Week-End;;
-RES22WE;4;Residentiel;RES22WE_HPSEM;RÈsidentiel HP/HC x Semaine / Weekend - Cadran Heures Pleines Semaine;OUI;NON
-RES22WE;4;Residentiel;RES22WE_HCSEM;RÈsidentiel HP/HC x Semaine / Weekend - Cadran Heures Creuses Semaine;;
-RES22WE;4;Residentiel;RES22WE_HPWE;RÈsidentiel HP/HC x Semaine / Weekend - Cadran Heures Pleines Weekend;;
-RES22WE;4;Residentiel;RES22WE_HCWE;RÈsidentiel HP/HC x Semaine / Weekend - Cadran Heures Creuses Weekend;;
-RES3;6;Residentiel;RES3_BUHC;RÈsidentiel avec PÈriode Mobile (06h-22h) - Cadran Bleu Heures Creuses;OUI;OUI
-RES3;6;Residentiel;RES3_BUHP;RÈsidentiel avec PÈriode Mobile (06h-22h) - Cadran Bleu Heures Pleines;;
-RES3;6;Residentiel;RES3_BCHC;RÈsidentiel avec PÈriode Mobile (06h-22h) - Cadran Blanc Heures Creuses;;
-RES3;6;Residentiel;RES3_BCHP;RÈsidentiel avec PÈriode Mobile (06h-22h) - Cadran Blanc Heures Pleines;;
-RES3;6;Residentiel;RES3_RHC;RÈsidentiel avec PÈriode Mobile (06h-22h) - Cadran Rouge Heures Creuses;;
-RES3;6;Residentiel;RES3_RHP;RÈsidentiel avec PÈriode Mobile (06h-22h) - Cadran Rouge Heures Pleines;;
-RES4-BRET;2;Residentiel;RES4-BRET_PM;"RÈsidentiel avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Pointe Mobile";OUI;OUI
-RES4-BRET;2;Residentiel;RES4-BRET_HC;"RÈsidentiel avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Creuses";;
-RES4-NORD;2;Residentiel;RES4-NORD_PM;"RÈsidentiel avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Pointe Mobile";OUI;OUI
-RES4-NORD;2;Residentiel;RES4-NORD_HC;"RÈsidentiel avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Creuses";;
-RES4-PACA;2;Residentiel;RES4-PACA_PM;"RÈsidentiel avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Pointe Mobile";OUI;OUI
-RES4-PACA;2;Residentiel;RES4-PACA_HC;"RÈsidentiel avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Creuses";;
-RES4-SUD;2;Residentiel;RES4-SUD_PM;"RÈsidentiel avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Pointe Mobile";OUI;OUI
-RES4-SUD;2;Residentiel;RES4-SUD_HC;"RÈsidentiel avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Creuses";;
-RES5;4;Residentiel;RES5_HPSH;RÈsidentiel HP/HC x Saison Haute/Saison Basse - Cadran Heures Pleines Saison Haute;OUI;NON
-RES5;4;Residentiel;RES5_HCSH;RÈsidentiel HP/HC x Saison Haute/Saison Basse - Cadran Heures Creuses Saison Haute;;
-RES5;4;Residentiel;RES5_HPSB;RÈsidentiel HP/HC x Saison Haute/Saison Basse - Cadran Heures Pleines Saison Basse;;
-RES5;4;Residentiel;RES5_HCSB;RÈsidentiel HP/HC x Saison Haute/Saison Basse - Cadran Heures Creuses Saison Basse;;
-PRO1;1;Professionnel;PRO1_BASE;Professionnel Base ;OUI;OUI
-PRO1WE;2;Professionnel;PRO1WE_SEM;Professionnel Base + WE - Cadran Semaine;OUI;NON
-PRO1WE;2;Professionnel;PRO1WE_WE;Professionnel Base + WE - Cadran Week-End;;
-PRO2;2;Professionnel;PRO2_HP;Professionnel HP / HC - Cadran Heures Pleines;OUI;OUI
-PRO2;2;Professionnel;PRO2_HC;Professionnel HP / HC - Cadran Heures Creuses;;
-PRO22WE;4;Professionnel;PRO22WE_HPSEM;Professionnel HP/HC x Semaine / WE - Cadran Heures Pleines Semaine;OUI;NON
-PRO22WE;4;Professionnel;PRO22WE_HCSEM;Professionnel HP/HC x Semaine / WE - Cadran Heures Creuses Semaine;;
-PRO22WE;4;Professionnel;PRO22WE_HPWE;Professionnel HP/HC x Semaine / WE - Cadran Heures Pleines Weekend;;
-PRO22WE;4;Professionnel;PRO22WE_HCWE;Professionnel HP/HC x Semaine / WE - Cadran Heures Creuses Weekend;;
-PRO3;6;Professionnel;PRO3_BUHC;Professionnel avec PÈriode Mobile (06h-22h) - Cadran Bleu Heures Creuses;OUI;OUI
-PRO3;6;Professionnel;PRO3_BUHP;Professionnel avec PÈriode Mobile (06h-22h) - Cadran Bleu Heures Pleines;;
-PRO3;6;Professionnel;PRO3_BCHC;Professionnel avec PÈriode Mobile (06h-22h) - Cadran Blanc Heures Creuses;;
-PRO3;6;Professionnel;PRO3_BCHP;Professionnel avec PÈriode Mobile (06h-22h) - Cadran Blanc Heures Pleines;;
-PRO3;6;Professionnel;PRO3_RHC;Professionnel avec PÈriode Mobile (06h-22h) - Cadran Rouge Heures Creuses;;
-PRO3;6;Professionnel;PRO3_RHP;Professionnel avec PÈriode Mobile (06h-22h) - Cadran Rouge Heures Pleines;;
-PRO4-BRET;2;Professionnel;PRO4-BRET_PM;"Professionnel avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Pointe Mobile";OUI;OUI
-PRO4-BRET;2;Professionnel;PRO4-BRET_HC;"Professionnel avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Creuses";;
-PRO4-NORD;2;Professionnel;PRO4-NORD_PM;"Professionnel avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Pointe Mobile";OUI;OUI
-PRO4-NORD;2;Professionnel;PRO4-NORD_HC;"Professionnel avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Creuses";;
-PRO4-PACA;2;Professionnel;PRO4-PACA_PM;"Professionnel avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Pointe Mobile";OUI;OUI
-PRO4-PACA;2;Professionnel;PRO4-PACA_HC;"Professionnel avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Creuses";;
-PRO4-SUD;2;Professionnel;PRO4-SUD_PM;"Professionnel avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Pointe Mobile";OUI;OUI
-PRO4-SUD;2;Professionnel;PRO4-SUD_HC;"Professionnel avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Creuses";;
-PRO5;1;Professionnel;PRO5_BASE;"Professionnel Base ""Eclairage public et assimilÈ""";OUI;OUI
-PRO6;4;Professionnel;PRO6_HPSH;Professionnel HP/HC x Saison Haute/Saison Basse - Cadran Heures Pleines Saison Haute;OUI;NON
-PRO6;4;Professionnel;PRO6_HCSH;Professionnel HP/HC x Saison Haute/Saison Basse - Cadran Heures Creuses Saison Haute;;
-PRO6;4;Professionnel;PRO6_HPSB;Professionnel HP/HC x Saison Haute/Saison Basse - Cadran Heures Pleines Saison Basse;;
-PRO6;4;Professionnel;PRO6_HCSB;Professionnel HP/HC x Saison Haute/Saison Basse - Cadran Heures Creuses Saison Basse;;
-ENT1;4;Entreprise;ENT1_HPH;Entreprise1 Basse Tension - Cadran Heures Pleines Hiver;OUI;NON
-ENT1;4;Entreprise;ENT1_HCH;Entreprise1 Basse Tension - Cadran Heures Creuses Hiver;;
-ENT1;4;Entreprise;ENT1_HPE;Entreprise1 Basse Tension - Cadran Heures Pleines EtÈ;;
-ENT1;4;Entreprise;ENT1_HCE;Entreprise1 Basse Tension - Cadran Heures Creuses EtÈ;;
-ENT2-BRET;4;Entreprise;ENT2-BRET_PM;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Pointe Mobile";OUI;NON
-ENT2-BRET;4;Entreprise;ENT2-BRET_HH;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Hiver";;
-ENT2-BRET;4;Entreprise;ENT2-BRET_HPE;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Pleines EtÈ";;
-ENT2-BRET;4;Entreprise;ENT2-BRET_HCE;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Creuses EtÈ";;
-ENT2-NORD;4;Entreprise;ENT2-NORD_PM;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone Nord - Cadran Pointe Mobile";OUI;NON
-ENT2-NORD;4;Entreprise;ENT2-NORD_HH;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone Nord - Cadran Heures Hiver";;
-ENT2-NORD;4;Entreprise;ENT2-NORD_HPE;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone Nord - Cadran Heures Pleines EtÈ";;
-ENT2-NORD;4;Entreprise;ENT2-NORD_HCE;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone Nord - Cadran Heures Creuses EtÈ";;
-ENT2-PACA;4;Entreprise;ENT2-PACA_PM;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Pointe Mobile";OUI;NON
-ENT2-PACA;4;Entreprise;ENT2-PACA_HH;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Hiver";;
-ENT2-PACA;4;Entreprise;ENT2-PACA_HPE;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Pleines EtÈ";;
-ENT2-PACA;4;Entreprise;ENT2-PACA_HCE;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Creuses EtÈ";;
-ENT2-SUD;4;Entreprise;ENT2-SUD_PM;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Pointe Mobile";OUI;NON
-ENT2-SUD;4;Entreprise;ENT2-SUD_HH;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Hiver";;
-ENT2-SUD;4;Entreprise;ENT2-SUD_HPE;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Pleines EtÈ";;
-ENT2-SUD;4;Entreprise;ENT2-SUD_HCE;"Entreprise2 Basse Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Creuses EtÈ";;
-ENT3;5;Entreprise;ENT3_P;Entreprise3 Haute Tension - Cadran Pointe;OUI;NON
-ENT3;5;Entreprise;ENT3_HPH;Entreprise3 Haute Tension - Cadran Heures Pleines Hiver;;
-ENT3;5;Entreprise;ENT3_HCH;Entreprise3 Haute Tension - Cadran Heures Creuses Hiver;;
-ENT3;5;Entreprise;ENT3_HPE;Entreprise3 Haute Tension - Cadran Heures Pleines EtÈ;;
-ENT3;5;Entreprise;ENT3_HCE;Entreprise3 Haute Tension - Cadran Heures Creuses EtÈ;;
-ENT4-BRET;4;Entreprise;ENT2-BRET_PM;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Pleines Hiver";OUI;NON
-ENT4-BRET;4;Entreprise;ENT2-BRET_HH;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Creuses Hiver";;
-ENT4-BRET;4;Entreprise;ENT2-BRET_HPE;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Pleines EtÈ";;
-ENT4-BRET;4;Entreprise;ENT2-BRET_HCE;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Creuses EtÈ";;
-ENT4-NORD;4;Entreprise;ENT2-NORD_PM;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Pleines Hiver";OUI;NON
-ENT4-NORD;4;Entreprise;ENT2-NORD_HH;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Creuses Hiver";;
-ENT4-NORD;4;Entreprise;ENT2-NORD_HPE;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Pleines EtÈ";;
-ENT4-NORD;4;Entreprise;ENT2-NORD_HCE;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Creuses EtÈ";;
-ENT4-PACA;4;Entreprise;ENT2-PACA_PM;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Pleines Hiver";OUI;NON
-ENT4-PACA;4;Entreprise;ENT2-PACA_HH;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Creuses Hiver";;
-ENT4-PACA;4;Entreprise;ENT2-PACA_HPE;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Pleines EtÈ";;
-ENT4-PACA;4;Entreprise;ENT2-PACA_HCE;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Creuses EtÈ";;
-ENT4-SUD;4;Entreprise;ENT2-SUD_PM;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Pleines Hiver";OUI;NON
-ENT4-SUD;4;Entreprise;ENT2-SUD_HH;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Creuses Hiver";;
-ENT4-SUD;4;Entreprise;ENT2-SUD_HPE;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Pleines EtÈ";;
-ENT4-SUD;4;Entreprise;ENT2-SUD_HCE;"Entreprise4 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Creuses EtÈ";;
-ENT5;8;Entreprise;ENT5_P;Entreprise5 Haute Tension - Cadran Pointe;OUI;NON
-ENT5;8;Entreprise;ENT5_HPH;Entreprise5 Haute Tension - Cadran Heures Pleines Hiver;;
-ENT5;8;Entreprise;ENT5_HPD;Entreprise5 Haute Tension - Cadran Heures Pleines Demi-Saison;;
-ENT5;8;Entreprise;ENT5_HCH;Entreprise5 Haute Tension - Cadran Heures Creuses Hiver;;
-ENT5;8;Entreprise;ENT5_HCD;Entreprise5 Haute Tension - Cadran Heures Creuses Demi-Saison;;
-ENT5;8;Entreprise;ENT5_HPE;Entreprise5 Haute Tension - Cadran Heures Pleines EtÈ;;
-ENT5;8;Entreprise;ENT5_HCE;Entreprise5 Haute Tension - Cadran Heures Creuses EtÈ;;
-ENT5;8;Entreprise;ENT5_JA;Entreprise5 Haute Tension - Cadran Juillet-Ao˚t;;
-ENT6-BRET;6;Entreprise;ENT6-BRET_PM;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Pointe Mobile";OUI;NON
-ENT6-BRET;6;Entreprise;ENT6-BRET_HH;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Hiver";;
-ENT6-BRET;6;Entreprise;ENT6-BRET_HD;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Demi-Saison";;
-ENT6-BRET;6;Entreprise;ENT6-BRET_HPE;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Pleines EtÈ";;
-ENT6-BRET;6;Entreprise;ENT6-BRET_HCE;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Creuses EtÈ";;
-ENT6-BRET;6;Entreprise;ENT6-BRET_JA;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Juillet-Ao˚t";;
-ENT6-NORD;6;Entreprise;ENT6-NORD_PM;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Pointe Mobile";OUI;NON
-ENT6-NORD;6;Entreprise;ENT6-NORD_HH;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Nord""  - Cadran Heures Hiver";;
-ENT6-NORD;6;Entreprise;ENT6-NORD_HD;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Demi-Saison";;
-ENT6-NORD;6;Entreprise;ENT6-NORD_HPE;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Pleines EtÈ";;
-ENT6-NORD;6;Entreprise;ENT6-NORD_HCE;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Creuses EtÈ";;
-ENT6-NORD;6;Entreprise;ENT6-NORD_JA;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Nord"" - Cadran Juillet-Ao˚t";;
-ENT6-PACA;6;Entreprise;ENT6-PACA_PM;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Pointe Mobile";OUI;NON
-ENT6-PACA;6;Entreprise;ENT6-PACA_HH;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Hiver";;
-ENT6-PACA;6;Entreprise;ENT6-PACA_HD;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Demi-Saison";;
-ENT6-PACA;6;Entreprise;ENT6-PACA_HPE;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Pleines EtÈ";;
-ENT6-PACA;6;Entreprise;ENT6-PACA_HCE;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Creuses EtÈ";;
-ENT6-PACA;6;Entreprise;ENT6-PACA_JA;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone PACA"" - Cadran Juillet-Ao˚t";;
-ENT6-SUD;6;Entreprise;ENT6-SUD_PM;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Pointe Mobile";OUI;NON
-ENT6-SUD;6;Entreprise;ENT6-SUD_HH;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Hiver";;
-ENT6-SUD;6;Entreprise;ENT6-SUD_HD;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Demi-Saison";;
-ENT6-SUD;6;Entreprise;ENT6-SUD_HPE;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Pleines EtÈ";;
-ENT6-SUD;6;Entreprise;ENT6-SUD_HCE;"Entreprise6 Haute Tension avec PÈriode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Creuses EtÈ";;
-ENT6-SUD;6;Entreprise;ENT6-SUD_JA;Entreprise6 Haute Tension avec PÈriode Mobile - Cadran Juillet-Ao˚t;;
-ENT7;5;Entreprise;ENT7_PM;Entreprise7 Haute Tension avec PÈriode Mobile [ 07h-01h ] U [ 18h-20h ] - Cadran Pointe Mobile;OUI;NON
-ENT7;5;Entreprise;ENT7_HPSH;Entreprise7 Haute Tension avec PÈriode Mobile [ 07h-01h ] U [ 18h-20h ] - Cadran Heures Pleines Saison Haute;;
-ENT7;5;Entreprise;ENT7_HCSH;Entreprise7 Haute Tension avec PÈriode Mobile [ 07h-01h ] U [ 18h-20h ] - Cadran Heures Creuses Saison Haute;;
-ENT7;5;Entreprise;ENT7_HPSB;Entreprise7 Haute Tension avec PÈriode Mobile [ 07h-01h ] U [ 18h-20h ] - Cadran Heures Pleines Saison Basse;;
-ENT7;5;Entreprise;ENT7_HCSB;Entreprise7 Haute Tension avec PÈriode Mobile [ 07h-01h ] U [ 18h-20h ] - Cadran Heures Creuses Saison Basse;;
-PRD1;1;Producteur;PRD1_BASE;Producteur de type hydraulique;OUI;NON
-PRD2;1;Producteur;PRD2_BASE;Producteur de type cogÈnÈration;OUI;NON
-PRD3;1;Producteur;PRD3_BASE;Producteur de type photovoltaÔque;OUI;OUI
-PRD4;1;Producteur;PRD4_BASE;Producteur de type autre (hors hydraulique, cogÈnÈration, photovoltaÔque);OUI;NON
+Profil;Nombre de cadrans;Cat√©gorie;Sous-profil;Libell√©
+RES1;1;Residentiel;RES1_BASE;R√©sidentiel Base ? 6 kVA
+RES11;1;Residentiel;RES11_BASE;R√©sidentiel Base > 6 kVA
+RES1WE;2;Residentiel;RES1WE_SEM;R√©sidentiel Base + WE <= 6 kVA - Cadran Semaine
+RES1WE;2;Residentiel;RES1WE_WE;R√©sidentiel Base + WE <= 6 kVA - Cadran Week-End
+RES11WE;2;Residentiel;RES11WE_SEM;R√©sidentiel Base + WE > 6 kVA - Cadran Semaine
+RES11WE;2;Residentiel;RES11WE_WE;R√©sidentiel Base + WE > 6 kVA - Cadran Week-End
+RES2;2;Residentiel;RES2_HP;R√©sidentiel HP / HC - Cadran Heures Pleines
+RES2;2;Residentiel;RES2_HC;R√©sidentiel HP / HC - Cadran Heures Creuses
+RES2WE;3;Residentiel;RES2WE_HP;R√©sidentiel HP / HC + WE - Cadran Heures Pleines
+RES2WE;3;Residentiel;RES2WE_HC;R√©sidentiel HP / HC + WE - Cadran Heures Creuses
+RES2WE;3;Residentiel;RES2WE_WE;R√©sidentiel HP / HC + WE - Cadran Week-End
+RES22WE;4;Residentiel;RES22WE_HPSEM;R√©sidentiel HP/HC x Semaine / Weekend - Cadran Heures Pleines Semaine
+RES22WE;4;Residentiel;RES22WE_HCSEM;R√©sidentiel HP/HC x Semaine / Weekend - Cadran Heures Creuses Semaine
+RES22WE;4;Residentiel;RES22WE_HPWE;R√©sidentiel HP/HC x Semaine / Weekend - Cadran Heures Pleines Weekend
+RES22WE;4;Residentiel;RES22WE_HCWE;R√©sidentiel HP/HC x Semaine / Weekend - Cadran Heures Creuses Weekend
+RES3;6;Residentiel;RES3_BUHC;R√©sidentiel avec P√©riode Mobile (06h-22h) - Cadran Bleu Heures Creuses
+RES3;6;Residentiel;RES3_BUHP;R√©sidentiel avec P√©riode Mobile (06h-22h) - Cadran Bleu Heures Pleines
+RES3;6;Residentiel;RES3_BCHC;R√©sidentiel avec P√©riode Mobile (06h-22h) - Cadran Blanc Heures Creuses
+RES3;6;Residentiel;RES3_BCHP;R√©sidentiel avec P√©riode Mobile (06h-22h) - Cadran Blanc Heures Pleines
+RES3;6;Residentiel;RES3_RHC;R√©sidentiel avec P√©riode Mobile (06h-22h) - Cadran Rouge Heures Creuses
+RES3;6;Residentiel;RES3_RHP;R√©sidentiel avec P√©riode Mobile (06h-22h) - Cadran Rouge Heures Pleines
+RES4-BRET;2;Residentiel;RES4-BRET_PM;"R√©sidentiel avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Pointe Mobile"
+RES4-BRET;2;Residentiel;RES4-BRET_HC;"R√©sidentiel avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Creuses"
+RES4-NORD;2;Residentiel;RES4-NORD_PM;"R√©sidentiel avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Pointe Mobile"
+RES4-NORD;2;Residentiel;RES4-NORD_HC;"R√©sidentiel avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Creuses"
+RES4-PACA;2;Residentiel;RES4-PACA_PM;"R√©sidentiel avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Pointe Mobile"
+RES4-PACA;2;Residentiel;RES4-PACA_HC;"R√©sidentiel avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Creuses"
+RES4-SUD;2;Residentiel;RES4-SUD_PM;"R√©sidentiel avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Pointe Mobile"
+RES4-SUD;2;Residentiel;RES4-SUD_HC;"R√©sidentiel avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Creuses"
+RES5;4;Residentiel;RES5_HPSH;R√©sidentiel HP/HC x Saison Haute/Saison Basse - Cadran Heures Pleines Saison Haute
+RES5;4;Residentiel;RES5_HCSH;R√©sidentiel HP/HC x Saison Haute/Saison Basse - Cadran Heures Creuses Saison Haute
+RES5;4;Residentiel;RES5_HPSB;R√©sidentiel HP/HC x Saison Haute/Saison Basse - Cadran Heures Pleines Saison Basse
+RES5;4;Residentiel;RES5_HCSB;R√©sidentiel HP/HC x Saison Haute/Saison Basse - Cadran Heures Creuses Saison Basse
+PRO1;1;Professionnel;PRO1_BASE;Professionnel Base 
+PRO1WE;2;Professionnel;PRO1WE_SEM;Professionnel Base + WE - Cadran Semaine
+PRO1WE;2;Professionnel;PRO1WE_WE;Professionnel Base + WE - Cadran Week-End
+PRO2;2;Professionnel;PRO2_HP;Professionnel HP / HC - Cadran Heures Pleines
+PRO2;2;Professionnel;PRO2_HC;Professionnel HP / HC - Cadran Heures Creuses
+PRO22WE;4;Professionnel;PRO22WE_HPSEM;Professionnel HP/HC x Semaine / WE - Cadran Heures Pleines Semaine
+PRO22WE;4;Professionnel;PRO22WE_HCSEM;Professionnel HP/HC x Semaine / WE - Cadran Heures Creuses Semaine
+PRO22WE;4;Professionnel;PRO22WE_HPWE;Professionnel HP/HC x Semaine / WE - Cadran Heures Pleines Weekend
+PRO22WE;4;Professionnel;PRO22WE_HCWE;Professionnel HP/HC x Semaine / WE - Cadran Heures Creuses Weekend
+PRO3;6;Professionnel;PRO3_BUHC;Professionnel avec P√©riode Mobile (06h-22h) - Cadran Bleu Heures Creuses
+PRO3;6;Professionnel;PRO3_BUHP;Professionnel avec P√©riode Mobile (06h-22h) - Cadran Bleu Heures Pleines
+PRO3;6;Professionnel;PRO3_BCHC;Professionnel avec P√©riode Mobile (06h-22h) - Cadran Blanc Heures Creuses
+PRO3;6;Professionnel;PRO3_BCHP;Professionnel avec P√©riode Mobile (06h-22h) - Cadran Blanc Heures Pleines
+PRO3;6;Professionnel;PRO3_RHC;Professionnel avec P√©riode Mobile (06h-22h) - Cadran Rouge Heures Creuses
+PRO3;6;Professionnel;PRO3_RHP;Professionnel avec P√©riode Mobile (06h-22h) - Cadran Rouge Heures Pleines
+PRO4-BRET;2;Professionnel;PRO4-BRET_PM;"Professionnel avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Pointe Mobile"
+PRO4-BRET;2;Professionnel;PRO4-BRET_HC;"Professionnel avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Creuses"
+PRO4-NORD;2;Professionnel;PRO4-NORD_PM;"Professionnel avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Pointe Mobile"
+PRO4-NORD;2;Professionnel;PRO4-NORD_HC;"Professionnel avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Creuses"
+PRO4-PACA;2;Professionnel;PRO4-PACA_PM;"Professionnel avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Pointe Mobile"
+PRO4-PACA;2;Professionnel;PRO4-PACA_HC;"Professionnel avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Creuses"
+PRO4-SUD;2;Professionnel;PRO4-SUD_PM;"Professionnel avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Pointe Mobile"
+PRO4-SUD;2;Professionnel;PRO4-SUD_HC;"Professionnel avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Creuses"
+PRO5;1;Professionnel;PRO5_BASE;"Professionnel Base ""Eclairage public et assimil√©"""
+PRO6;4;Professionnel;PRO6_HPSH;Professionnel HP/HC x Saison Haute/Saison Basse - Cadran Heures Pleines Saison Haute
+PRO6;4;Professionnel;PRO6_HCSH;Professionnel HP/HC x Saison Haute/Saison Basse - Cadran Heures Creuses Saison Haute
+PRO6;4;Professionnel;PRO6_HPSB;Professionnel HP/HC x Saison Haute/Saison Basse - Cadran Heures Pleines Saison Basse
+PRO6;4;Professionnel;PRO6_HCSB;Professionnel HP/HC x Saison Haute/Saison Basse - Cadran Heures Creuses Saison Basse
+ENT1;4;Entreprise;ENT1_HPH;Entreprise1 Basse Tension - Cadran Heures Pleines Hiver
+ENT1;4;Entreprise;ENT1_HCH;Entreprise1 Basse Tension - Cadran Heures Creuses Hiver
+ENT1;4;Entreprise;ENT1_HPE;Entreprise1 Basse Tension - Cadran Heures Pleines Et√©
+ENT1;4;Entreprise;ENT1_HCE;Entreprise1 Basse Tension - Cadran Heures Creuses Et√©
+ENT2-BRET;4;Entreprise;ENT2-BRET_PM;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Pointe Mobile"
+ENT2-BRET;4;Entreprise;ENT2-BRET_HH;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Hiver"
+ENT2-BRET;4;Entreprise;ENT2-BRET_HPE;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Pleines Et√©"
+ENT2-BRET;4;Entreprise;ENT2-BRET_HCE;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Creuses Et√©"
+ENT2-NORD;4;Entreprise;ENT2-NORD_PM;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone Nord - Cadran Pointe Mobile"
+ENT2-NORD;4;Entreprise;ENT2-NORD_HH;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone Nord - Cadran Heures Hiver"
+ENT2-NORD;4;Entreprise;ENT2-NORD_HPE;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone Nord - Cadran Heures Pleines Et√©"
+ENT2-NORD;4;Entreprise;ENT2-NORD_HCE;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone Nord - Cadran Heures Creuses Et√©"
+ENT2-PACA;4;Entreprise;ENT2-PACA_PM;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Pointe Mobile"
+ENT2-PACA;4;Entreprise;ENT2-PACA_HH;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Hiver"
+ENT2-PACA;4;Entreprise;ENT2-PACA_HPE;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Pleines Et√©"
+ENT2-PACA;4;Entreprise;ENT2-PACA_HCE;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Creuses Et√©"
+ENT2-SUD;4;Entreprise;ENT2-SUD_PM;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Pointe Mobile"
+ENT2-SUD;4;Entreprise;ENT2-SUD_HH;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Hiver"
+ENT2-SUD;4;Entreprise;ENT2-SUD_HPE;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Pleines Et√©"
+ENT2-SUD;4;Entreprise;ENT2-SUD_HCE;"Entreprise2 Basse Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Creuses Et√©"
+ENT3;5;Entreprise;ENT3_P;Entreprise3 Haute Tension - Cadran Pointe
+ENT3;5;Entreprise;ENT3_HPH;Entreprise3 Haute Tension - Cadran Heures Pleines Hiver
+ENT3;5;Entreprise;ENT3_HCH;Entreprise3 Haute Tension - Cadran Heures Creuses Hiver
+ENT3;5;Entreprise;ENT3_HPE;Entreprise3 Haute Tension - Cadran Heures Pleines Et√©
+ENT3;5;Entreprise;ENT3_HCE;Entreprise3 Haute Tension - Cadran Heures Creuses Et√©
+ENT4-BRET;4;Entreprise;ENT2-BRET_PM;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Pleines Hiver"
+ENT4-BRET;4;Entreprise;ENT2-BRET_HH;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Creuses Hiver"
+ENT4-BRET;4;Entreprise;ENT2-BRET_HPE;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Pleines Et√©"
+ENT4-BRET;4;Entreprise;ENT2-BRET_HCE;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Creuses Et√©"
+ENT4-NORD;4;Entreprise;ENT2-NORD_PM;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Pleines Hiver"
+ENT4-NORD;4;Entreprise;ENT2-NORD_HH;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Creuses Hiver"
+ENT4-NORD;4;Entreprise;ENT2-NORD_HPE;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Pleines Et√©"
+ENT4-NORD;4;Entreprise;ENT2-NORD_HCE;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Creuses Et√©"
+ENT4-PACA;4;Entreprise;ENT2-PACA_PM;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Pleines Hiver"
+ENT4-PACA;4;Entreprise;ENT2-PACA_HH;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Creuses Hiver"
+ENT4-PACA;4;Entreprise;ENT2-PACA_HPE;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Pleines Et√©"
+ENT4-PACA;4;Entreprise;ENT2-PACA_HCE;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Creuses Et√©"
+ENT4-SUD;4;Entreprise;ENT2-SUD_PM;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Pleines Hiver"
+ENT4-SUD;4;Entreprise;ENT2-SUD_HH;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Creuses Hiver"
+ENT4-SUD;4;Entreprise;ENT2-SUD_HPE;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Pleines Et√©"
+ENT4-SUD;4;Entreprise;ENT2-SUD_HCE;"Entreprise4 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Creuses Et√©"
+ENT5;8;Entreprise;ENT5_P;Entreprise5 Haute Tension - Cadran Pointe
+ENT5;8;Entreprise;ENT5_HPH;Entreprise5 Haute Tension - Cadran Heures Pleines Hiver
+ENT5;8;Entreprise;ENT5_HPD;Entreprise5 Haute Tension - Cadran Heures Pleines Demi-Saison
+ENT5;8;Entreprise;ENT5_HCH;Entreprise5 Haute Tension - Cadran Heures Creuses Hiver
+ENT5;8;Entreprise;ENT5_HCD;Entreprise5 Haute Tension - Cadran Heures Creuses Demi-Saison
+ENT5;8;Entreprise;ENT5_HPE;Entreprise5 Haute Tension - Cadran Heures Pleines Et√©
+ENT5;8;Entreprise;ENT5_HCE;Entreprise5 Haute Tension - Cadran Heures Creuses Et√©
+ENT5;8;Entreprise;ENT5_JA;Entreprise5 Haute Tension - Cadran Juillet-Ao√ªt
+ENT6-BRET;6;Entreprise;ENT6-BRET_PM;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Pointe Mobile"
+ENT6-BRET;6;Entreprise;ENT6-BRET_HH;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Hiver"
+ENT6-BRET;6;Entreprise;ENT6-BRET_HD;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Demi-Saison"
+ENT6-BRET;6;Entreprise;ENT6-BRET_HPE;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Pleines Et√©"
+ENT6-BRET;6;Entreprise;ENT6-BRET_HCE;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Heures Creuses Et√©"
+ENT6-BRET;6;Entreprise;ENT6-BRET_JA;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Bretagne"" - Cadran Juillet-Ao√ªt"
+ENT6-NORD;6;Entreprise;ENT6-NORD_PM;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Pointe Mobile"
+ENT6-NORD;6;Entreprise;ENT6-NORD_HH;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Nord""  - Cadran Heures Hiver"
+ENT6-NORD;6;Entreprise;ENT6-NORD_HD;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Demi-Saison"
+ENT6-NORD;6;Entreprise;ENT6-NORD_HPE;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Pleines Et√©"
+ENT6-NORD;6;Entreprise;ENT6-NORD_HCE;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Heures Creuses Et√©"
+ENT6-NORD;6;Entreprise;ENT6-NORD_JA;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Nord"" - Cadran Juillet-Ao√ªt"
+ENT6-PACA;6;Entreprise;ENT6-PACA_PM;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Pointe Mobile"
+ENT6-PACA;6;Entreprise;ENT6-PACA_HH;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Hiver"
+ENT6-PACA;6;Entreprise;ENT6-PACA_HD;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Demi-Saison"
+ENT6-PACA;6;Entreprise;ENT6-PACA_HPE;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Pleines Et√©"
+ENT6-PACA;6;Entreprise;ENT6-PACA_HCE;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Heures Creuses Et√©"
+ENT6-PACA;6;Entreprise;ENT6-PACA_JA;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone PACA"" - Cadran Juillet-Ao√ªt"
+ENT6-SUD;6;Entreprise;ENT6-SUD_PM;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Pointe Mobile"
+ENT6-SUD;6;Entreprise;ENT6-SUD_HH;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Hiver"
+ENT6-SUD;6;Entreprise;ENT6-SUD_HD;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Demi-Saison"
+ENT6-SUD;6;Entreprise;ENT6-SUD_HPE;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Pleines Et√©"
+ENT6-SUD;6;Entreprise;ENT6-SUD_HCE;"Entreprise6 Haute Tension avec P√©riode Mobile (07h-01h) ""Zone Sud"" - Cadran Heures Creuses Et√©"
+ENT6-SUD;6;Entreprise;ENT6-SUD_JA;Entreprise6 Haute Tension avec P√©riode Mobile - Cadran Juillet-Ao√ªt
+ENT7;5;Entreprise;ENT7_PM;Entreprise7 Haute Tension avec P√©riode Mobile [ 07h-01h ] U [ 18h-20h ] - Cadran Pointe Mobile
+ENT7;5;Entreprise;ENT7_HPSH;Entreprise7 Haute Tension avec P√©riode Mobile [ 07h-01h ] U [ 18h-20h ] - Cadran Heures Pleines Saison Haute
+ENT7;5;Entreprise;ENT7_HCSH;Entreprise7 Haute Tension avec P√©riode Mobile [ 07h-01h ] U [ 18h-20h ] - Cadran Heures Creuses Saison Haute
+ENT7;5;Entreprise;ENT7_HPSB;Entreprise7 Haute Tension avec P√©riode Mobile [ 07h-01h ] U [ 18h-20h ] - Cadran Heures Pleines Saison Basse
+ENT7;5;Entreprise;ENT7_HCSB;Entreprise7 Haute Tension avec P√©riode Mobile [ 07h-01h ] U [ 18h-20h ] - Cadran Heures Creuses Saison Basse
+PRD1;1;Producteur;PRD1_BASE;Producteur de type hydraulique
+PRD2;1;Producteur;PRD2_BASE;Producteur de type cog√©n√©ration
+PRD3;1;Producteur;PRD3_BASE;Producteur de type photovolta√Øque
+PRD4;1;Producteur;PRD4_BASE;Producteur de type autre (hors hydraulique, cog√©n√©ration, photovolta√Øque)
