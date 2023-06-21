@@ -1,5 +1,4 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
 import requests
 
@@ -29,8 +28,6 @@ with st.sidebar:
   year = st.radio("HORODATE",
         ('2020', '2021', '2022', '2023'), horizontal=True
     )
-
-#@st.cache_data
 
 def url():
   url = f'https://data.enedis.fr/api/records/1.0/search/?dataset=coefficients-des-profils&q=&rows=9999&facet=horodate&facet=sous_profil&facet=categorie&refine.categorie={category}&refine.sous_profil={profile}&refine.horodate={year}'
@@ -62,7 +59,6 @@ st.markdown(css, unsafe_allow_html=True)
 
 tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(['🛈 Informations', ':bookmark_tabs: Tableau', ':bar_chart: Analyse', 'ℹ En savoir plus', ':inbox_tray: Export', ':gear: API'])
 
-
 with tab1:
   r = requests.get(f'https://data.enedis.fr/explore/dataset/{dataset}/information/')
   st.markdown(r.text.split('content="')[4].split('"')[0])
@@ -70,7 +66,6 @@ with tab1:
 with tab2:
   write(data)
   st.divider()
-
 
 with tab3:
   st.subheader(''.join(dic['Libelle'][dic['Sous-profil']==profile]))
@@ -101,7 +96,6 @@ with tab5:
     file_name=f'{dataset}_{category}_{profile}_{year}.csv',
     mime='text/csv')
   st.write('Le CSV utilise le point-virgule (;) comme séparateur.)')
-
 
 with tab6:
   st.markdown(f'[ :link: API GET request]({url})')
