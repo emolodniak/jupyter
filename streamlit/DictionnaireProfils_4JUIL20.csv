@@ -1,4 +1,4 @@
-Profil;Nombre de cadrans;Catégorie;Sous-profil;Libellé
+Profil;Nombre de cadrans;Categorie;Sous-profil;Libelle
 RES1;1;Residentiel;RES1_BASE;Résidentiel Base ? 6 kVA
 RES11;1;Residentiel;RES11_BASE;Résidentiel Base > 6 kVA
 RES1WE;2;Residentiel;RES1WE_SEM;Résidentiel Base + WE <= 6 kVA - Cadran Semaine
