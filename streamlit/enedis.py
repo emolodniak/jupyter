@@ -62,7 +62,7 @@ with tab1:
   st.markdown(r.text.split('content="')[4].split('"')[0])
 
 with tab2:
-  write(data)
+  st.write(data)
   st.divider()
 
 with tab3:
