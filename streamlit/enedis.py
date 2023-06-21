@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import requests
 
-#setup
+#Setup
 st.set_page_config(
     page_title="U-Need Enedis Dashboard",
     page_icon="https://d3v4jsc54141g1.cloudfront.net/uploads/mentor/avatar/1575105/normal_Enedis_Icone_couleur_RVB_300_dpi-1552312893.png",
