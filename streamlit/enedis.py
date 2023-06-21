@@ -87,7 +87,7 @@ with tab3:
   st.divider()
 
 with tab4:
-  st.markdown(" [ Page du site d'origine ENEDIS OPEN DATA :arrow_upper_right:](https://data.enedis.fr/explore/dataset/coefficients-des-profils/information/)")
+  st.markdown(" [ :link: Page du site d'origine ENEDIS OPEN DATA](https://data.enedis.fr/explore/dataset/coefficients-des-profils/information/)")
   st.divider()
 
 with tab5:
@@ -101,6 +101,6 @@ with tab5:
   st.divider()
 
 with tab6:
-  st.markdown(f'[ :link: API GET request]({url})')
+  st.subheader('API GET request')
   st.write(url)
   st.divider()
