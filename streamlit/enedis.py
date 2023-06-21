@@ -102,4 +102,5 @@ with tab5:
 
 with tab6:
   st.markdown(f'[ :link: API GET request]({url})')
+  st.write(url)
   st.divider()
