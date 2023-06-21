@@ -77,7 +77,7 @@ with tab3:
   period = st.radio("PERIOD",
         ('Mois', 'Jour', 'Heure'), horizontal=True
     )
-  DF = data
+  DF = data.drop(columns=['categorie', 'sous_profil'])
   if period == 'Mois':
     DF = DF.set_index('horodate').resample('M').mean().reset_index()
   if period == 'Jour':
