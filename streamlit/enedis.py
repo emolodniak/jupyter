@@ -60,6 +60,7 @@ tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(['🛈 Informations', ':bookmark_ta
 with tab1:
   r = requests.get(f'https://data.enedis.fr/explore/dataset/{dataset}/information/')
   st.markdown(r.text.split('content="')[4].split('"')[0])
+  st.divider()
 
 with tab2:
   st.write(data)
@@ -82,9 +83,11 @@ with tab3:
       DF.select_dtypes('float').columns.values, DF.select_dtypes('float').columns.values[0]
   )
   st.line_chart(data=DF, x='horodate', y=variables)
+  st.divider()
 
 with tab4:
   st.markdown(" [ Page du site d'origine ENEDIS OPEN DATA :arrow_upper_right:](https://data.enedis.fr/explore/dataset/coefficients-des-profils/information/)")
+  st.divider()
 
 with tab5:
   st.write('Jeu de données entier')
@@ -94,6 +97,8 @@ with tab5:
     file_name=f'{dataset}_{category}_{profile}_{year}.csv',
     mime='text/csv')
   st.write('Le CSV utilise le point-virgule (;) comme séparateur.)')
+  st.divider()
 
 with tab6:
   st.markdown(f'[ :link: API GET request]({url})')
+  st.divider()
