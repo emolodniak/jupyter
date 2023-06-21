@@ -28,7 +28,7 @@ with st.sidebar:
     )
 
 def url():
-  url = f'https://data.enedis.fr/api/records/1.0/search/?dataset=coefficients-des-profils&q=&rows=9999&facet=horodate&facet=sous_profil&facet=categorie&refine.categorie={category}&refine.sous_profil={profile}&refine.horodate={year}'
+  url = f'https://data.enedis.fr/api/records/1.0/search/?dataset=coefficients-des-profils&rows=9999&facet=horodate&facet=sous_profil&facet=categorie&refine.categorie={category}&refine.sous_profil={profile}&refine.horodate={year}'
   return url
 
 url = url()
