@@ -78,7 +78,6 @@ with tab3:
         ('Mois', 'Jour', 'Heure'), horizontal=True
     )
   DF = data
-  DF['horodate'] = pd.to_datetime(DF['horodate'], format='%Y-%m')
   if period == 'Mois':
     DF = DF.set_index('horodate').resample('M').mean().reset_index()
   if period == 'Jour':
@@ -89,7 +88,7 @@ with tab3:
       "VARIABLES", 
       DF.select_dtypes('float').columns.values, DF.select_dtypes('float').columns.values[0]
   )
-  st.line_chart(data=DF, x='horodate', y=variables) #['coefficient_ajuste','coefficient_prepare'])
+  st.line_chart(data=DF, x='horodate', y=variables)
 
 
 with tab5:
@@ -99,6 +98,7 @@ with tab5:
     file_name=f'{dataset}_{category}_{profile}_{year}.csv',
     mime='text/csv')
   st.write('Le CSV utilise le point-virgule (;) comme séparateur.)')
+
 
 with tab6:
   st.markdown(f'[ :link: API GET request]({url})')
