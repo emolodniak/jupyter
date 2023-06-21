@@ -67,9 +67,9 @@ with tab1:
   r = requests.get(f'https://data.enedis.fr/explore/dataset/{dataset}/information/')
   st.markdown(r.text.split('content="')[4].split('"')[0])
 
-
-tab2.write(data)
-st.divider()
+with tab2:
+  write(data)
+  st.divider()
 
 
 with tab3:
@@ -90,6 +90,8 @@ with tab3:
   )
   st.line_chart(data=DF, x='horodate', y=variables)
 
+with tab4:
+  st.markdown("[Page du site d'origine ENEDIS OPEN DATA :arrow_upper_right:]('https://data.enedis.fr/explore/dataset/coefficients-des-profils/information/')")
 
 with tab5:
   st.write('Jeu de données entier')
