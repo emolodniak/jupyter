@@ -42,7 +42,7 @@ def get_data():
   df = pd.json_normalize(requests.get(url).json()['records'])
   df.drop(columns=['datasetid','recordid','record_timestamp'], inplace=True)
   df.columns = df.columns.str.replace('fields.', '')
-  df['horodate'] = pd.to_datetime(df['horodate'], format='%Y-%m-%dT%H:%M:%S.%f%z')
+  df['horodate'] = pd.to_datetime(df['horodate'], format='%Y-%m-%dT%H:%M:%S') #.%f%z
   df.sort_values('horodate', ignore_index=True, inplace=True)
   return df
 
